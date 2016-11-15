@@ -101,6 +101,7 @@
 		A0F682371DCCBED600311B94 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F6822D1DCCBED600311B94 /* whiteArrow.png */; };
 		A0F682381DCCBED600311B94 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0F6822E1DCCBED600311B94 /* whiteArrow@2x.png */; };
 		A0F682391DCCBED600311B94 /* RefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F682301DCCBED600311B94 /* RefreshTableHeaderView.m */; };
+		A5590CBD1DDAA0FF00EF4685 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5590CBC1DDAA0FF00EF4685 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +256,8 @@
 		A0F6822E1DCCBED600311B94 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
 		A0F6822F1DCCBED600311B94 /* RefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableHeaderView.h; sourceTree = "<group>"; };
 		A0F682301DCCBED600311B94 /* RefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableHeaderView.m; sourceTree = "<group>"; };
+		A5590CBB1DDAA0FF00EF4685 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A5590CBC1DDAA0FF00EF4685 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +349,7 @@
 				A0EDE1E71DCB0E850033C616 /* Message */,
 				A0EDE2681DCB28ED0033C616 /* Center */,
 				A0EDE1E51DCB0E850033C616 /* Discover */,
+				A5590CBA1DDAA06E00EF4685 /* Login */,
 				A0EDE1E81DCB0E850033C616 /* Profile */,
 				A06B07AE1DCAD35D00AD2FBF /* AppDelegate.h */,
 				A06B07AF1DCAD35D00AD2FBF /* AppDelegate.m */,
@@ -657,6 +661,16 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		A5590CBA1DDAA06E00EF4685 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5590CBB1DDAA0FF00EF4685 /* LoginViewController.h */,
+				A5590CBC1DDAA0FF00EF4685 /* LoginViewController.m */,
+			);
+			name = Login;
+			path = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -775,6 +789,7 @@
 				A0EDE2701DCB34010033C616 /* LeftViewController.m in Sources */,
 				A05E45C91DCAE320000F298D /* AFHTTPSessionManager.m in Sources */,
 				A0EDE2731DCB395A0033C616 /* SecondViewController.m in Sources */,
+				A5590CBD1DDAA0FF00EF4685 /* LoginViewController.m in Sources */,
 				A0EDE2261DCB14D60033C616 /* SDWebImageManager.m in Sources */,
 				A0EDE2221DCB14D60033C616 /* SDWebImageCompat.m in Sources */,
 				A08162B41DD17CF8006E6630 /* ShareButtonView.m in Sources */,
