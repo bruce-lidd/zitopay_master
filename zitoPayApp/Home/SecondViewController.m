@@ -8,7 +8,8 @@
 
 #import "SecondViewController.h"
 #import "ShareButtonView.h"
-@interface SecondViewController () <ShareButtonViewDelegate>
+#import "CountButtonView.h"
+@interface SecondViewController () <ShareButtonViewDelegate,CountButtonViewDelegate>
 
 @end
 
@@ -19,13 +20,16 @@
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor darkGrayColor]];
     
-    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 200, 200, 50)];
-    [btn setTitle:@"点击" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [btn setBackgroundColor:[UIColor greenColor]];
-    [self.view addSubview:btn];
-    
+//    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 200, 200, 50)];
+//    [btn setTitle:@"点击" forState:UIControlStateNormal];
+//    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+//    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [btn setBackgroundColor:[UIColor greenColor]];
+//    [self.view addSubview:btn];
+    CountButtonView * countBtn = [[CountButtonView alloc] initWithFrame:CGRectMake(0, 200, 200, 50)];
+    [countBtn setBackgroundColor:[UIColor grayColor]];
+    [countBtn setDelegate:self];
+    [self.view addSubview:countBtn];
 }
 - (void)btnClick:(UIButton *)btn
 {
@@ -67,6 +71,18 @@
         default:
             break;
     }
+}
+#pragma mark  CountButtonViewDelegate
+- (void)startCountDown:(CountButtonView *)countBtnView
+{
+    NSLog(@"start countdown");
+    
+}
+
+- (void)finishCountDown:(CountButtonView *)countBtnView
+{
+    NSLog(@"finish count");
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

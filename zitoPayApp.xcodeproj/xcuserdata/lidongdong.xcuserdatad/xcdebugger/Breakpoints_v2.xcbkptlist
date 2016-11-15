@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zitoPayApp/Home/SecondViewController.m"
-            timestampString = "500268639.132558"
+            timestampString = "500870650.276945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "-clickItem:index:"
             landmarkType = "7">
          </BreakpointContent>
