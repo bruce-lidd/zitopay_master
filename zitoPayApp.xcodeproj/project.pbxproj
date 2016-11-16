@@ -34,6 +34,7 @@
 		A08162C91DD17D22006E6630 /* system_image_share_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A08162BF1DD17D22006E6630 /* system_image_share_wechat@2x.png */; };
 		A083631C1DDAA52000699E54 /* CountButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A083631B1DDAA52000699E54 /* CountButtonView.m */; };
 		A08E826E1DD0695600CFFC94 /* shareData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A08E826D1DD0695600CFFC94 /* shareData.plist */; };
+		A090FF6C1DDBE75200930E23 /* ZitoTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A090FF6B1DDBE75200930E23 /* ZitoTimer.m */; };
 		A0EA93A41DDAB60A003520ED /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA938B1DDAB60A003520ED /* MASCompositeConstraint.m */; };
 		A0EA93A51DDAB60A003520ED /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA938E1DDAB60A003520ED /* MASConstraint.m */; };
 		A0EA93A61DDAB60A003520ED /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA93901DDAB60A003520ED /* MASConstraintMaker.m */; };
@@ -44,6 +45,7 @@
 		A0EA93AB1DDAB60A003520ED /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA939D1DDAB60A003520ED /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		A0EA93AC1DDAB60A003520ED /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA939F1DDAB60A003520ED /* View+MASAdditions.m */; };
 		A0EA93AD1DDAB60A003520ED /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA93A21DDAB60A003520ED /* ViewController+MASAdditions.m */; };
+		A0EA93B11DDADB11003520ED /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA93B01DDADB11003520ED /* LayerView.m */; };
 		A0EDE1D51DCB0AAC0033C616 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EDE1D01DCB0AAC0033C616 /* RECommonFunctions.m */; };
 		A0EDE1D61DCB0AAC0033C616 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EDE1D21DCB0AAC0033C616 /* RESideMenu.m */; };
 		A0EDE1D71DCB0AAC0033C616 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EDE1D41DCB0AAC0033C616 /* UIViewController+RESideMenu.m */; };
@@ -163,6 +165,8 @@
 		A083631A1DDAA52000699E54 /* CountButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountButtonView.h; sourceTree = "<group>"; };
 		A083631B1DDAA52000699E54 /* CountButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountButtonView.m; sourceTree = "<group>"; };
 		A08E826D1DD0695600CFFC94 /* shareData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shareData.plist; sourceTree = "<group>"; };
+		A090FF6A1DDBE75200930E23 /* ZitoTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZitoTimer.h; sourceTree = "<group>"; };
+		A090FF6B1DDBE75200930E23 /* ZitoTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZitoTimer.m; sourceTree = "<group>"; };
 		A0EA938A1DDAB60A003520ED /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		A0EA938B1DDAB60A003520ED /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		A0EA938C1DDAB60A003520ED /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 		A0EA93A01DDAB60A003520ED /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		A0EA93A11DDAB60A003520ED /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		A0EA93A21DDAB60A003520ED /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		A0EA93AF1DDADB11003520ED /* LayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerView.h; sourceTree = "<group>"; };
+		A0EA93B01DDADB11003520ED /* LayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
 		A0EDE1CF1DCB0AAC0033C616 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		A0EDE1D01DCB0AAC0033C616 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		A0EDE1D11DCB0AAC0033C616 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
@@ -491,6 +497,15 @@
 			path = SystemData;
 			sourceTree = "<group>";
 		};
+		A090FF691DDBE69700930E23 /* ZITOTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A090FF6A1DDBE75200930E23 /* ZitoTimer.h */,
+				A090FF6B1DDBE75200930E23 /* ZitoTimer.m */,
+			);
+			path = ZITOTimer;
+			sourceTree = "<group>";
+		};
 		A0EA93881DDAB60A003520ED /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +536,15 @@
 				A0EA93A21DDAB60A003520ED /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		A0EA93AE1DDADAFA003520ED /* LayerView */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA93AF1DDADB11003520ED /* LayerView.h */,
+				A0EA93B01DDADB11003520ED /* LayerView.m */,
+			);
+			path = LayerView;
 			sourceTree = "<group>";
 		};
 		A0EDE1CE1DCB0AAC0033C616 /* RESideMenu */ = {
@@ -706,6 +730,8 @@
 		A0F682101DCCB75800311B94 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				A090FF691DDBE69700930E23 /* ZITOTimer */,
+				A0EA93AE1DDADAFA003520ED /* LayerView */,
 				A08363191DDAA4FD00699E54 /* CountButton */,
 				A08E826B1DD068B400CFFC94 /* ShareButtonView */,
 				A0F682251DCCBED600311B94 /* RefreshTableview */,
@@ -861,6 +887,7 @@
 				A0EDE2221DCB14D60033C616 /* SDWebImageCompat.m in Sources */,
 				A08162B41DD17CF8006E6630 /* ShareButtonView.m in Sources */,
 				A0EDE2271DCB14D60033C616 /* SDWebImagePrefetcher.m in Sources */,
+				A0EA93B11DDADB11003520ED /* LayerView.m in Sources */,
 				A0EDE1E41DCB0CB00033C616 /* BaseNavigationViewController.m in Sources */,
 				A05E45CE1DCAE320000F298D /* AFURLSessionManager.m in Sources */,
 				A0EA93A41DDAB60A003520ED /* MASCompositeConstraint.m in Sources */,
@@ -890,6 +917,7 @@
 				A0EDE1E11DCB0C4E0033C616 /* BaseViewController.m in Sources */,
 				A0EDE21E1DCB14D60033C616 /* NSData+ImageContentType.m in Sources */,
 				A0712EE41DCDC0F800B3FE58 /* UIViewExt.m in Sources */,
+				A090FF6C1DDBE75200930E23 /* ZitoTimer.m in Sources */,
 				A0EDE2251DCB14D60033C616 /* SDWebImageDownloaderOperation.m in Sources */,
 				A0EDE2341DCB259C0033C616 /* ZITOUtility.m in Sources */,
 				A0F6820F1DCCA93E00311B94 /* BaseTableView.m in Sources */,
