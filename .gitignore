@@ -1,0 +1,52 @@
+
+＃创建者https://www.gitignore.io/api/macos,xcode
+
+###的MacOS ###
+* .DS_Store
+.AppleDouble
+.LSOverride
+
+＃图标必须使用两个\ r结束
+图标
+＃缩略图
+._ *
+可能出现在卷的根目录的文件＃
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+＃目录可能在远程AFP共享创建
+.AppleDB
+.AppleDesktop
+网络垃圾文件夹
+临时项目
+.apdisk
+
+
+###的Xcode ###
+＃的Xcode
+＃
+＃gitignore贡献者：记得更新全球/ Xcode.gitignore，目的-C.gitignore＆Swift.gitignore
+
+##构建生成
+建立/
+DerivedData /
+
+##各种设置
+* .pbxuser
+！default.pbxuser
+* .mode1v3
+！default.mode1v3
+* .mode2v3
+！default.mode2v3
+* .perspectivev3
+！default.perspectivev3
+xcuserdata /
+
+##其他
+* .moved预留
+* .xccheckout
+* .xcscmblueprint
