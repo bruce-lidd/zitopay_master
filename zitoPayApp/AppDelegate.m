@@ -39,7 +39,7 @@
     [self.window setRootViewController:self.reSideMenu];
     
     //显示广告页
-//    [self showAdView];
+    [self showAdView];
     return YES;
 }
 
@@ -50,13 +50,10 @@
     
     BOOL isExist = [ZITOUtility isFileExistWithFilePath:filePath];
     if (isExist) {// 图片存在
-        
         AdvertiseView *advertiseView = [[AdvertiseView alloc] initWithFrame:self.window.bounds];
         advertiseView.filePath = filePath;
         [advertiseView showAdView];
-        
     }
-    
     // 2.无论沙盒中是否存在广告图片，都需要重新调用广告接口，判断广告是否更新
     [self getAdvertisingImage];
 }
